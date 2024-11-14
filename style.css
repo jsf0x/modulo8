@@ -28,6 +28,5 @@ p{
     padding: 50px;
 }
 #sub-hijo{
-    color: aqua;
-    color: rgb(255, 0, 255);
+    color:rgb(225, 0, 255) !important;
 }
