@@ -1,9 +1,25 @@
 <html>
     <head>
-
+        <title>Introducción a CSS</title>
+        <style>
+            #padre{
+                border: 1px solid #ff0000;
+                width: 300px;
+                height: 300px;
+            }
+            #hijo{
+                border: 1px solid #0000ff;
+                width: 100;
+                height: 100;
+                margin: 20px;
+            }
+        </style>
     </head>
     <body>
         <h1 style="color:red">Este es un título con estilo en línea</h1>
         <p style="color:#0000FF">Parrafo</p>
+        <di id="padre">
+            <div id="hijo"></div>
+        </di>
     </body>
 </html>
